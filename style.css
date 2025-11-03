@@ -1,0 +1,132 @@
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background: linear-gradient(135deg, #fff6cc, #ffd84d);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px 20px;
+  transition: background 0.4s ease-in-out;
+}
+
+
+.input-container {
+  background: white;
+  padding: 12px 16px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+  gap: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.input-container:hover {
+  transform: translateY(-2px);
+}
+
+
+input {
+  border: none;
+  outline: none;
+  padding: 10px 12px;
+  border-radius: 8px;
+  width: 240px;
+  font-size: 15px;
+  background-color: #fff9db;
+  transition: box-shadow 0.3s;
+}
+
+input:focus {
+  box-shadow: 0 0 0 3px rgba(255, 204, 0, 0.4);
+}
+
+
+#btn {
+  background: #ffcc00;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0px 3px 8px rgba(255, 204, 0, 0.4);
+}
+
+#btn:hover {
+  background: #e6b800;
+  transform: translateY(-2px);
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 25px;
+  width: 340px;
+  max-width: 100%;
+}
+
+
+li {
+  background: white;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.08);
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+
+li button {
+  background: #ffcc00;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  font-size: 13px;
+  transition: all 0.3s ease;
+}
+
+li button:hover {
+  background: #e6b800;
+  transform: scale(1.05);
+}
+
+
+li p {
+  flex-grow: 1;
+  margin: 0;
+  padding-right: 10px;
+  word-break: break-word;
+}
+
+
+.modal-content {
+  border-radius: 14px !important;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.modal-body input {
+  background-color: #fff9db;
+}
+
+
+.main3 {
+  padding: auto;
+  margin: auto;
+}
